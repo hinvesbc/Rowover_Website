@@ -1,0 +1,78 @@
+[
+  {
+    "id": 5,
+    "title": "The Impact of Flooding on UK Rowing",
+    "author": "ChatGPT",
+    "date": "5/12/2024",
+    "content":"I'm sure people are tired of hearing the same thing about how rowing is outdated, elitist, and other similar stereotypes. These are the same stereotypes that the Rabil brothers were tired of hearing about their sport, Lacrosse.",
+    "slug": "Impact of flooding on rowing",
+    "image": "/Images/burst river banks.jpeg"
+
+  },
+  {
+    "id": 1,
+    "title": "Cambridge Trial 8's Report",
+    "author": "Ben Hinves",
+    "date": "13/12/2024",
+    "content": "Trial 8’s is used as an opportunity for boat race athletes to test the waters of the tideway in a 1 vs 1 as a preliminary test before taking on any external competition. It is also an opportunity for coaches to assess how well their athletes cope with the pressure and conditions of the tideway, similar to the final race in March against their rivals. Today proved to be a standout test with fierce winds, stream, and wash to deal with, significantly hindering the abilities of some of the top athletes in the country, with gusts clocking in at upwards of 26mph.",
+    "slug": "Cambridge trial 8 report",
+    "image" : "/Images/cambridge trial 8.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Cash Prizes",
+    "author": "Ben Hinves",
+    "date": "2024-12-06",
+    "content": "With the annual Golds cup event taking place at the end of October coming up now is as good a time as any to discuss cash prizes in rowing.",
+    "slug": "Cash prizes",
+    "image": "/Images/cash prizes in rowing.jpeg"
+  },
+  {
+    "id": 3,
+    "title": "Finding Balance in Rowing",
+    "author": "Ben Hinves",
+    "date": "16/01/2024",
+    "content": "From zero to hero and back to zero? How did I find balance after leaving a high performance club?",
+    "slug": "Finding balance in rowing",
+    "image": "/Images/Finding Balance.jpeg"
+  },
+  {
+    "id": 4,
+    "title": "Making Rowing a spectator sport",
+    "author": "Ben Hinves",
+    "date": "13/03/23",
+    "content": "Why do people watch sports that they don’t play or do themselves? Whether that is football, a widely accessible sport to both play and watch, or F1 which is highly unlikely that you would be a competitor but nonetheless has a huge fan base.",
+    "slug": "Making rowing spectator sport",
+    "image": "/Images/Spectator rowing.jpeg"
+  },
+  {
+    "id": 5,
+    "title": "Power 8 Sprints",
+    "author": "Ben Hinves",
+    "date": "15/03/23",
+    "content":"In early 2018 British rowing announced that the power 8 sprints would be coming to a city near you. It was an attempt to promote rowing to wider audiences by setting up 350m sprints blasting through major cities.",
+    "slug": "Power 8 Sprints",
+    "image": "/Images/power 8 sprints.png"
+  },
+  {
+    "id": 5,
+    "title": "Premier Lacrosse League",
+    "author": "Ben Hinves",
+    "date": "05/10/23",
+    "content":"I'm sure people are tired of hearing the same thing about how rowing is outdated, elitist, and other similar stereotypes. These are the same stereotypes that the Rabil brothers were tired of hearing about their sport, Lacrosse.",
+    "slug": "Premier Lacrosse League",
+    "image": "/Images/pll.jpeg"
+
+  },
+  {
+    "id": 5,
+    "title": "What does rowing need to do to stay relevant?",
+    "author": "Ben Hinves",
+    "date": "02/11/2023",
+    "content":"I'm sure people are tired of hearing the same thing about how rowing is outdated, elitist, and other similar stereotypes. These are the same stereotypes that the Rabil brothers were tired of hearing about their sport, Lacrosse.",
+    "slug": "What does rowing need to do to stay relevant",
+    "image": "/Images/keep rowing relevant.jpeg"
+
+  }
+
+]

@@ -1,0 +1,314 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+/* Hero Section */
+.hero {
+    
+    padding: 100px 40px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.hero .cta-button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+    background-color: #0056b3;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+}
+
+/* Section Styling */
+.section {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Podcast Section */
+.podcast-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.podcast-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.podcast-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.podcast-item iframe {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+/* Tools Section */
+.tools-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tool-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tool-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.tool-item .button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tool-item .button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+footer .social-links li a img {
+    width: 24px;
+    height: 24px;
+    transition: opacity 0.3s ease;
+}
+
+footer .social-links li a:hover img {
+    opacity: 0.7;
+}
+
+
+
+.hero-image img {
+    max-width: 50%; /* Adjust this value as needed */
+    height: auto;
+    display: block;
+    margin: 40px auto;
+}
+
+/* Style the posts container */
+#blog-posts,
+#blog-posts-main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Style each post */
+.post,
+.post-main {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* Add a hover effect to scale up the post */
+.post:hover,
+.post-main:hover {
+    transform: scale(1.05);
+}
+
+/* Style the post image */
+.post-image,
+.post-image-main {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style the post title */
+.post h2,
+.post-main h2 {
+    font-size: 1.5em;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+/* Style the meta information (author, date) */
+.post p,
+.post-main p {
+    font-size: 0.9em;
+    color: #777;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Style the content preview */
+.post p:last-child,
+.post-main p:last-child {
+    font-size: 1em;
+    color: #555;
+    margin: 0 10px;
+}
+
+/* Style the 'Read more' link */
+.post a,
+.post-main a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-top: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the 'Read more' link */
+.post a:hover,
+.post-main a:hover {
+    background-color: #0056b3;
+}
+
+/* Add responsive styling */
+@media (max-width: 768px) {
+    #blog-posts,
+    #blog-posts-main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .post,
+    .post-main {
+        width: 90%;
+    }
+}
+.posts-container {
+    display: flex; /* Use flexbox layout */
+    gap: 20px; /* Space between posts */
+    flex-wrap: wrap; /* Allow wrapping if there are more posts */
+    justify-content: space-between; /* Distribute space between items */
+}
+
+.post-main {
+    flex: 1 1 calc(50% - 20px); /* Each post takes up 50% of the width minus the gap */
+    box-sizing: border-box; /* Include padding and border in size calculation */
+    background-color: #f9f9f9; /* Optional: Add a background */
+    border: 1px solid #ddd; /* Optional: Add a border */
+    padding: 16px; /* Optional: Add some padding */
+}
+
+.post-image {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+}
+@media (max-width: 768px) {
+    .post-main {
+        flex: 1 1 100%; /* Full width on smaller screens */
+    }
+}
